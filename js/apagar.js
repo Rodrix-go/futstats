@@ -14,7 +14,7 @@ function apagar(id){
     // Salvar a lista de jogadores no localStorage
     localStorage.setItem("jogadores", JSON.stringify(jogadoresATT))
     
-    window.location.href = "index.html"
+    window.location.reload()
 
     
 }
